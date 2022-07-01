@@ -161,6 +161,7 @@ body{
 .card-title span{
 	color: #D67E35;
 	margin-left: 4px;
+	margin-right: 4px;
 }
 .card-subtitle{
 	display: flex;
@@ -251,22 +252,24 @@ body{
 	color: #D67E35;
 	font-size: 54px;
 	font-weight: 400;
+	width: 70%;
 }
 .left-text{
 	color: white;
 	font-size: 24px;
 	font-weight: 700;
+	width: 70%;
 }
 .right-btn{
 	background-color: #FF7400;
 	text-decoration: none;
 	color: white;
-	padding: 14px 18px;
+	padding: 14px 22px;
 	font-weight: 700;
 }
 .block-holder{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 
