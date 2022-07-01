@@ -307,7 +307,7 @@ body{
 }
 .menu-title{
 	font-size: 54px;
-	font-weight: 400;
+	font-weight: 700;
 	color: white;
 	text-align: center;
 	padding-top: 98px;
@@ -364,4 +364,71 @@ body{
 .menu-items{
 	display: flex;
 	justify-content: center;
+}
+
+
+.comment{
+	background-color: #E5E5E5;
+	text-align: center;
+	margin-top: -15px;
+	padding: 104px 260px 50px 260px;
+}
+.comment-text{
+	margin-bottom: 20px;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.galery-title{
+	font-size: 54px;
+	font-weight: 400;
+	color: #000000;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.galery-title span{
+	color: #D67E34
+}
+
+.galery-content{
+	display: flex;
+	justify-content: center;
+}
+.galery-left{
+	margin-right: 20px;
+}
+.galery-down, .galery-up{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.cook-title{
+	font-size: 54px;
+	font-weight: 400;
+	color: #000000;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.cook-title span{
+	color: #D67E34
+}
+.cook-content{
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.footer{
+	background-image: url(img/footer.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 100px;
+	padding: 50px 0;
 }
