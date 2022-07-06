@@ -80,6 +80,10 @@ body{
 .button:hover{
 	background-color: orange;
 }
+.burger-menu{
+	display: none;
+}
+
 .header-down{
 	position: relative;
 	width: 800px;
@@ -326,6 +330,8 @@ body{
 	margin-right: 30px;
 
 }
+.menu-image{
+}
 .menu-text{
 	font-size: 26px;
 	font-weight: 400;
@@ -374,7 +380,7 @@ body{
 	background-color: #E5E5E5;
 	text-align: center;
 	margin-top: -15px;
-	padding: 104px 260px 50px 260px;
+	padding: 50px 100px;
 }
 .comment-text{
 	margin-bottom: 20px;
@@ -434,4 +440,124 @@ body{
 	text-align: center;
 	margin-top: 100px;
 	padding: 50px 0;
+}
+
+
+@media (max-width: 1500px){
+
+	.galery-content{
+		display: block;
+	}
+	.img-gal, .galery-up, .galery-down{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.img-gal{
+		margin-bottom: 20px;
+		max-width: 250px;
+	}
+	.galery-left{
+		margin-right: 0 ;
+	}
+}
+
+@media (max-width: 1300px) {
+	.menu-items{ 
+		position relative;
+		display: block;
+	}
+	.menu-item{
+		margin: 20px auto;
+		width: 600px;
+	}
+	.price{
+		display: none;	
+	}
+
+	.header-title{
+		display: block;
+		margin-left: 0;
+		text-align: center;
+		width: auto;
+	}
+	.header-subtitle:before,
+	.header-subtitle:after{
+		content: none;
+	}
+	.cook-content{
+		display: block;
+	}
+	.cook-item{
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.comment{
+		padding: 50px 30px;
+	}
+
+	.block-holder{
+
+		display: block;
+		
+	}
+	.left-title, .left-text, .right{
+		width: 100%;
+		text-align: center;
+	}
+	.right-button{
+		margin-top: 40px;
+	}
+	.history-images{
+		display: none;
+	}
+	.history-holder{
+		text-align: center;
+	}
+	.history-title,
+	.history-desc,
+	.history-number{
+		width: auto;
+	}
+	.burger-text span{
+		display: none;
+	}
+}
+
+@media (max-width: 1185px){
+	.burger-menu{
+		display: block;
+	}
+	.nav,
+	.cart,
+	.phone,
+	.btn{
+		display: none;
+	}
+	.header-line{
+		justify-content: space-between;
+	}
+	.burgers-image{
+		display: none
+	}
+}
+@media (max-width: 1000px){
+	.card-holder{
+		display: block;
+
+	}
+	.card{
+		width: 100%;
+		margin-top: 30px;
+		padding-bottom: 20px;
+	}
+}
+@media (max-width: 780px){
+	.menu-item{width: auto;}
+	.container{
+		margin: auto;
+	}
 }
