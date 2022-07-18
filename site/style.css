@@ -543,10 +543,7 @@ body{
 	.burgers-image{
 		display: none
 	}
-	.header-down{
-		width: 200px;
-		
-	}
+	
 }
 @media (max-width: 1000px){
 	.card-holder{
@@ -564,7 +561,11 @@ body{
 	.header-title{
 		width: 100%;
 		text-align: center;
-}
+
+	}
+	.menu-item{
+		width: 100%;
+	}
 }
 @media (max-width: 780px){
 	.header-line{
@@ -578,7 +579,15 @@ body{
 		width: 100%;
 	}
 	.card{
-		padding:  0;
+		padding:0;
 	}
-
+	
+}
+@media (max-width: 500px){
+	.header-title{
+		font-size: 35px
+	}
+	.rest{
+		font-size: 45px;
+	}
 }
