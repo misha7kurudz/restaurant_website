@@ -441,8 +441,20 @@ body{
 	margin-top: 100px;
 	padding: 50px 0;
 }
-
-
+.burger-slide{
+	position: absolute;
+}
+.block{
+	display: block;
+}
+button{
+	border:  none;
+	outline: none;
+	background-color: transparent;
+}
+.disp{
+	display: none;
+}
 @media (max-width: 1500px){
 
 	.galery-content{
